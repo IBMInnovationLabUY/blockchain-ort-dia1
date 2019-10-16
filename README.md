@@ -41,7 +41,7 @@ Estos prerrequisitos deben ser cumplidos antes del hands-on, durante el mismo no
 ## Introducción 
 
 
-En el primer día del taller comprenderemos las bases de una red blockchain y los componentes que la integran, veremos cómo funciona y cuales son las ventajas de IBM Blockchain Platform (IBP) y llevaremos a cabo 1 laboratorio: 
+En el primer día del taller comprenderemos las bases de una red blockchain y los componentes que la integran, veremos cómo funciona y cuales son las ventajas de IBM Blockchain Platform (IBP) y llevaremos a cabo un laboratorio: 
 * Generar una red simple usando Hyperledger Fabric local e IBP.
 
 ## Lab 1
