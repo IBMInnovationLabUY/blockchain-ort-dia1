@@ -69,7 +69,7 @@ La extensión de IBP puede generar un esqueleto de smart contract en alguno de l
 
 5. Elija una ubicación para guardar el proyecto. Haga clic en `Examinar`, luego haga clic en `Nueva carpeta` y asigne al proyecto el nombre que desee, yo usare `demo_ort`.
 
-6. Haga clic en `Crear` y luego seleccione la nueva carpeta que acaba de crear y haga clic en` Guardar`.
+6. Haga clic en `Crear` y luego seleccione la nueva carpeta que acaba de crear y haga clic en `Guardar`.
 
 7. Finalmente, seleccione `Add to workspace`.
 
@@ -96,7 +96,7 @@ Veamos la función `createCar`:
     }
 ```
 
-Los corchetes vacíos en `@Transaction ()` indican que esta función está destinada a cambiar el contenido del ledger. La función se llama `createCar` y toma `CarsId` y un `value`, los cuales son string. Cuando se envíe esta transacción, se creará un nuevo activo, con la clave `CarsId` y el valor` value`. Por ejemplo, si tuviéramos que crear "001", "Car x", entonces, cuando luego leamos el valor de la clave `001`, aprenderemos que el valor de ese estado particular es `Car x`.
+Los corchetes vacíos en `@Transaction ()` indican que esta función está destinada a cambiar el contenido del ledger. La función se llama `createCar` y toma `CarsId` y un `value`, los cuales son string. Cuando se envíe esta transacción, se creará un nuevo activo, con la clave `CarsId` y el valor `value`. Por ejemplo, si tuviéramos que crear "001", "Car x", entonces, cuando luego leamos el valor de la clave `001`, aprenderemos que el valor de ese estado particular es `Car x`.
 
 Ahora, veamos la próxima transacción:
 
